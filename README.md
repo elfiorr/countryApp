@@ -1,30 +1,31 @@
 # Spring Boot App
-## Swagger
+## Swagger:
 ```
 http://localhost:8080/swagger-ui/index.html
 ```
-## Git
-##### Check out to a temporary branch:
+# Git
+## Create repo on github and then:
 ```
-git checkout --orphan TEMP_BRANCH
-```
-
-##### Add all the files:
-```
-git add -A
+git init
 ```
 
-##### Commit the changes:
 ```
-git commit -am "Initial commit"
+git add .
+```
+```
+git commit "firtCommit"
+```
+```
+git branch -M main
+```
+```
+git remote add origin gitpathfromfirststep
+```
+```
+git push -u origin main
 ```
 
-##### Delete the old branch:
+## Run with:
 ```
-git branch -D master
-```
-
-##### Rename the temporary branch to master:
-```
-git branch -m master
+-DMYSQL_PASS=haslo
 ```
