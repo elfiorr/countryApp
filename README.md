@@ -4,27 +4,23 @@
 http://localhost:8080/swagger-ui/index.html
 ```
 ## Git
-##### Check out to a temporary branch:
+## Create repo on github and then:
 ```
-git checkout --orphan TEMP_BRANCH
-```
-
-##### Add all the files:
-```
-git add -A
+git init
 ```
 
-##### Commit the changes:
 ```
-git commit -am "Initial commit"
+git add .
 ```
-
-##### Delete the old branch:
 ```
-git branch -D master
+git commit "firtCommit"
 ```
-
-##### Rename the temporary branch to master:
 ```
-git branch -m master
+git branch -M main
+```
+```
+git remote add origin gitpathfromfirststep
+```
+```
+git push -u origin main
 ```
