@@ -1,9 +1,9 @@
 # Spring Boot App
-## Swagger
+## Swagger:
 ```
 http://localhost:8080/swagger-ui/index.html
 ```
-## Git
+# Git
 ## Create repo on github and then:
 ```
 git init
@@ -23,4 +23,9 @@ git remote add origin gitpathfromfirststep
 ```
 ```
 git push -u origin main
+```
+
+## Run with:
+```
+-DMYSQL_PASS=haslo
 ```
